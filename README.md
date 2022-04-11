@@ -1,34 +1,34 @@
 # Proyecto Challenge-Clima
 
-# Iniciar Proyecto
+## Iniciar Proyecto
 
-Ejecutar "npm i" para instalar librerias necesarias.
+Ejecutar "npm i" para instalar librerias necesarias.  
 
-# scripts
-npm run dev -> para iniciar el servidor en modo developer
-npm run start -> para iniciar el servidor
-npm run test -> ejecutar tests
+## Scripts
+npm run dev -> para iniciar el servidor en modo developer  
+npm run start -> para iniciar el servidor  
+npm run test -> ejecutar tests  
 
-# Endpoints
+## Endpoints
 
-GET location
-Method: GET
-path: {url}/{version}/location
+GET location  
+Method: GET  
+path: {url}/{version}/location  
 
-GET Current
-Method: GET
-path: {url}/{version}/current/{city}?
+GET Current  
+Method: GET  
+path: {url}/{version}/current/{city}?  
 
-GET Forecast
-Method: GET
-path: {url}/{version}/forecast/{city}?
+GET Forecast  
+Method: GET  
+path: {url}/{version}/forecast/{city}?  
 
-Se utilizaron apis de OpenWeather y IPAPI.
+Se utilizaron apis de OpenWeather y IPAPI.  
 
-# POSTMAN Collection
+## POSTMAN Collection  
 
-En la carpeta resources se encuentra la colección de postman con los endpoints
+En la carpeta resources se encuentra la colección de postman con los endpoints  
 
-# .ENV
+## .ENV  
 
-Se pasan las key necesarias por mail. Para completar las variables de entorno necesarias.
+Se pasan las key necesarias por mail. Para completar las variables de entorno necesarias.  
