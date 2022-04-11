@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "35b2f7cd-53aa-4eac-82dd-a1ae0cfb3e29",
+		"name": "challenge-clima-city",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "location",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-forwarded-for",
+						"value": "200.122.36.79",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/v1/location",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"v1",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "current/city",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-forwarded-for",
+						"value": "200.122.36.79",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{url}}/v1/current/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"v1",
+						"current",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forecast/city",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-forwarded-for",
+						"value": "200.122.36.79",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{url}}/v1/forecast/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"v1",
+						"forecast",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
